@@ -1166,7 +1166,7 @@ a {
   background-color: #25D366;
   color: #FFF;
   border-radius: 50%;
-  display: flex;
+  display: none; /* Oculto temporalmente. Cambiar a 'display: flex;' para mostrarlo de nuevo */
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.25);
