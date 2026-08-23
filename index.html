@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="/images/soner-icon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soner - Inspección técnica con drones</title>
+  <meta name="description" content="Inspección termográfica aérea con drones para identificar anomalías térmicas y prevenir fallas.">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container navbar">
+      <div class="logo">
+         <img src="/images/logo-white.png" alt="Soner" height="36" style="display: block;">
+      </div>
+      <nav class="nav-links">
+        <a href="#beneficios">Beneficios</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#entregables">Entregables</a>
+        <a href="#sectores">Sectores</a>
+        <a href="solicitar.html" class="btn btn-primary nav-cta">Solicitar inspección</a>
+      </nav>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="/videos/hero-video-drone-footage.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1>Más allá<br>de lo visible.</h1>
+        <p>Inspección termográfica aérea con drones para<br>identificar anomalías térmicas, puntos calientes y<br>condiciones que pueden convertirse en fallas.</p>
+        <div class="hero-buttons">
+          <a href="solicitar.html" class="btn btn-primary">Solicitar una inspección &rarr;</a>
+          <a href="#servicios" class="btn btn-outline">Conocer nuestros servicios</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beneficios Clave -->
+    <section id="beneficios" class="key-benefits container section-padding">
+       <div class="benefits-intro">
+         <h2>Las fallas pueden comenzar mucho antes de ser visibles.</h2>
+         <p>Las inspecciones convencionales pueden no detectar anomalías térmicas en etapas tempranas. La termografía permite identificar diferencias de temperatura asociadas a posibles fallas, deterioro o condiciones anormales de operación.</p>
+       </div>
+       <div class="benefits-items">
+         <div class="benefit-item">
+           <div class="round-icon">
+             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12C19 15.866 15.866 19 12 19M19 12C19 8.13401 15.866 5 12 5M19 12H21M12 19C8.13401 19 5 15.866 5 12M12 19V21M5 12C5 8.13401 8.13401 5 12 5M5 12H3M12 5V3M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z"/></svg>
+           </div>
+           <h3>Detectar</h3>
+           <p>Detectar anomalías antes de que se conviertan en fallas.</p>
+         </div>
+         <div class="benefit-item">
+           <div class="round-icon">
+             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z"/><path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"/></svg>
+           </div>
+           <h3>Localizar</h3>
+           <p>Localizar con precisión el activo o componente afectado.</p>
+         </div>
+         <div class="benefit-item">
+           <div class="round-icon">
+             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 21H6.2C5.07989 21 4.51984 21 4.09202 20.782C3.71569 20.5903 3.40973 20.2843 3.21799 19.908C3 19.4802 3 18.9201 3 17.8V3M7 15L12 9L16 13L21 7"/></svg>
+           </div>
+           <h3>Priorizar</h3>
+           <p>Priorizar acciones de mantenimiento según la severidad del hallazgo.</p>
+         </div>
+       </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services container section-padding">
+      <h2 class="text-center section-title">Inspección técnica desde una nueva perspectiva.</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="/images/termografia_solar.jpg" alt="Plantas Fotovoltaicas" class="service-img">
+          <div class="service-content">
+            <h3>Plantas Fotovoltaicas</h3>
+            <p>Detección de puntos calientes, células dañadas y anomalías térmicas en módulos fotovoltaicos.</p>
+            <a href="#" class="btn-link">Ver servicio &rarr;</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="/images/termografia_subestacion.jpg" alt="Subestaciones y Transmisión" class="service-img">
+          <div class="service-content">
+            <h3>Subestaciones y Transmisión</h3>
+            <p>Identificación de conexiones defectuosas, puntos calientes y condiciones anormales en infraestructura eléctrica.</p>
+            <a href="#" class="btn-link">Ver servicio &rarr;</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="/images/termografia_techo.jpg" alt="Techos y Sistemas de Impermeabilización" class="service-img">
+          <div class="service-content">
+            <h3>Techos y Sistemas de Impermeabilización</h3>
+            <p>Identificación de zonas con posibles filtraciones y evaluación de condiciones asociadas a sistemas impermeables.</p>
+            <a href="#" class="btn-link">Ver servicio &rarr;</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <img src="/images/termografia_torre.jpg" alt="Torres de Comunicación" class="service-img">
+          <div class="service-content">
+            <h3>Torres de Comunicación</h3>
+            <p>Inspección visual y termográfica de infraestructura, identificando puntos calientes y condiciones relevantes.</p>
+            <a href="#" class="btn-link">Ver servicio &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proceso -->
+    <section class="process container section-padding">
+      <h2 class="text-center section-title">Del levantamiento al diagnóstico.</h2>
+      <div class="process-steps">
+        <div class="step-line"></div>
+        <div class="step">
+           <div class="step-header">
+             <span class="step-number">01</span>
+           </div>
+           <div class="step-icon">
+             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 9H21M7 3V5M17 3V5M6 12H8M11 12H13M16 12H18M6 15H8M11 15H13M16 15H18M6 18H8M11 18H13M16 18H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z" /></svg>
+           </div>
+           <h3>Planificación</h3>
+           <p>Coordinación previa, definición del alcance y planificación del trabajo.</p>
+        </div>
+        <div class="step">
+           <div class="step-header">
+             <span class="step-number">02</span>
+           </div>
+           <div class="step-icon">
+             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 11V11.6132C6 11.9369 6 12.0988 6.04575 12.2448C6.08624 12.374 6.15256 12.4936 6.24069 12.5965C6.34025 12.7127 6.4775 12.7984 6.752 12.97L7.75339 13.5959M18 11V11.6132C18 11.9369 18 12.0988 17.9542 12.2448C17.9138 12.374 17.8474 12.4936 17.7593 12.5965C17.6597 12.7127 17.5225 12.7984 17.248 12.97L16.2466 13.5959M7.75339 13.5959C8.32199 12.0794 9.78495 11 11.5 11H12.5C14.2151 11 15.678 12.0794 16.2466 13.5959M7.75339 13.5959L8.85714 14.2857M16.2466 13.5959L15.1429 14.2857M8 18V16.2361C8 16.0808 8.03614 15.9277 8.10557 15.7889L8.85714 14.2857M16 18V16.2361C16 16.0808 15.9639 15.9277 15.8944 15.7889L15.1429 14.2857M15.1429 14.2857L14.3891 14.7568C14.2444 14.8473 14.172 14.8925 14.0943 14.9245C14.0254 14.9529 13.9535 14.9736 13.88 14.986C13.7972 15 13.7118 15 13.5411 15H10.4589C10.2882 15 10.2028 15 10.12 14.986C10.0465 14.9736 9.9746 14.9529 9.90567 14.9245C9.82802 14.8925 9.75564 14.8473 9.61088 14.7568L8.85714 14.2857M2 8H10M14 8H22M6 8V6M18 8V6" /></svg>
+           </div>
+           <h3>Inspección</h3>
+           <p>Levantamiento aéreo y recolección de información en campo.</p>
+        </div>
+        <div class="step">
+           <div class="step-header">
+             <span class="step-number">03</span>
+           </div>
+           <div class="step-icon">
+             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 6C13.7614 6 16 8.23858 16 11M16.6588 16.6549L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" /></svg>
+           </div>
+           <h3>Análisis</h3>
+           <p>Procesamiento, análisis y validación de los datos obtenidos.</p>
+        </div>
+        <div class="step">
+           <div class="step-header">
+             <span class="step-number">04</span>
+           </div>
+           <div class="step-icon">
+             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3H8.2C7.0799 3 6.51984 3 6.09202 3.21799C5.71569 3.40973 5.40973 3.71569 5.21799 4.09202C5 4.51984 5 5.0799 5 6.2V17.8C5 18.9201 5 19.4802 5.21799 19.908C5.40973 20.2843 5.71569 20.5903 6.09202 20.782C6.51984 21 7.0799 21 8.2 21H10M13 3L19 9M13 3V7.4C13 7.96005 13 8.24008 13.109 8.45399C13.2049 8.64215 13.3578 8.79513 13.546 8.89101C13.7599 9 14.0399 9 14.6 9H19M19 9V10M9 17H11.5M9 13H14M9 9H10M14 21L16.025 20.595C16.2015 20.5597 16.2898 20.542 16.3721 20.5097C16.4452 20.4811 16.5147 20.4439 16.579 20.399C16.6516 20.3484 16.7152 20.2848 16.8426 20.1574L21 16C21.5523 15.4477 21.5523 14.5523 21 14C20.4477 13.4477 19.5523 13.4477 19 14L14.8426 18.1574C14.7152 18.2848 14.6516 18.3484 14.601 18.421C14.5561 18.4853 14.5189 18.5548 14.4903 18.6279C14.458 18.7102 14.4403 18.7985 14.405 18.975L14 21Z" /></svg>
+           </div>
+           <h3>Informe</h3>
+           <p>Entrega de resultados, hallazgos y documentación técnica.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Entregables -->
+    <section id="entregables" class="deliverables container section-padding">
+      <div class="deliverables-grid">
+         <div class="deliverables-title">
+           <h2>Resultados que puede utilizar para tomar decisiones.</h2>
+         </div>
+         <div class="deliverables-cards">
+           <div class="d-card">
+             <div class="d-icon-badge">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3H8.2C7.0799 3 6.51984 3 6.09202 3.21799C5.71569 3.40973 5.40973 3.71569 5.21799 4.09202C5 4.51984 5 5.0799 5 6.2V17.8C5 18.9201 5 19.4802 5.21799 19.908C5.40973 20.2843 5.71569 20.5903 6.09202 20.782C6.51984 21 7.0799 21 8.2 21H10M13 3L19 9M13 3V7.4C13 7.96005 13 8.24008 13.109 8.45399C13.2049 8.64215 13.3578 8.79513 13.546 8.89101C13.7599 9 14.0399 9 14.6 9H19M19 9V10M9 17H11.5M9 13H14M9 9H10M14 21L16.025 20.595C16.2015 20.5597 16.2898 20.542 16.3721 20.5097C16.4452 20.4811 16.5147 20.4439 16.579 20.399C16.6516 20.3484 16.7152 20.2848 16.8426 20.1574L21 16C21.5523 15.4477 21.5523 14.5523 21 14C20.4477 13.4477 19.5523 13.4477 19 14L14.8426 18.1574C14.7152 18.2848 14.6516 18.3484 14.601 18.421C14.5561 18.4853 14.5189 18.5548 14.4903 18.6279C14.458 18.7102 14.4403 18.7985 14.405 18.975L14 21Z" /></svg>
+             </div>
+             <div class="d-info">
+               <h3>Informe técnico</h3>
+               <p>Informe de resultados con identificación y clasificación de hallazgos.</p>
+               <span class="d-format">Formato: PDF</span>
+             </div>
+           </div>
+           <div class="d-card">
+             <div class="d-icon-badge">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.2639 15.9375L12.5958 14.2834C11.7909 13.4851 11.3884 13.086 10.9266 12.9401C10.5204 12.8118 10.0838 12.8165 9.68048 12.9536C9.22188 13.1095 8.82814 13.5172 8.04068 14.3326L4.04409 18.2801M14.2639 15.9375L14.6053 15.599C15.4112 14.7998 15.8141 14.4002 16.2765 14.2543C16.6831 14.126 17.12 14.1311 17.5236 14.2687C17.9824 14.4251 18.3761 14.8339 19.1634 15.6514L20 16.4934M14.2639 15.9375L18.275 19.9565M18.275 19.9565C17.9176 20 17.4543 20 16.8 20H7.2C6.07989 20 5.51984 20 5.09202 19.782C4.71569 19.5903 4.40973 19.2843 4.21799 18.908C4.12796 18.7313 4.07512 18.5321 4.04409 18.2801M18.275 19.9565C18.5293 19.9256 18.7301 19.8727 18.908 19.782C19.2843 19.5903 19.5903 19.2843 19.782 18.908C20 18.4802 20 17.9201 20 16.8V16.4934M4.04409 18.2801C4 17.9221 4 17.4575 4 16.8V7.2C4 6.0799 4 5.51984 4.21799 5.09202C4.40973 4.71569 4.71569 4.40973 5.09202 4.21799C5.51984 4 6.07989 4 7.2 4H16.8C17.9201 4 18.4802 4 18.908 4.21799C19.2843 4.40973 19.5903 4.71569 19.782 5.09202C20 5.51984 20 6.0799 20 7.2V16.4934M17 8.99989C17 10.1045 16.1046 10.9999 15 10.9999C13.8954 10.9999 13 10.1045 13 8.99989C13 7.89532 13.8954 6.99989 15 6.99989C16.1046 6.99989 17 7.89532 17 8.99989Z" /></svg>
+             </div>
+             <div class="d-info">
+               <h3>Registro termográfico</h3>
+               <p>Imágenes fotográficas y termográficas de los hallazgos identificados.</p>
+               <span class="d-format">Formato: JPG</span>
+             </div>
+           </div>
+           <div class="d-card">
+             <div class="d-icon-badge">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 10L18.5768 8.45392C19.3699 7.97803 19.7665 7.74009 20.0928 7.77051C20.3773 7.79703 20.6369 7.944 20.806 8.17433C21 8.43848 21 8.90095 21 9.8259V14.1741C21 15.099 21 15.5615 20.806 15.8257C20.6369 16.056 20.3773 16.203 20.0928 16.2295C19.7665 16.2599 19.3699 16.022 18.5768 15.5461L16 14M6.2 18H12.8C13.9201 18 14.4802 18 14.908 17.782C15.2843 17.5903 15.5903 17.2843 15.782 16.908C16 16.4802 16 15.9201 16 14.8V9.2C16 8.0799 16 7.51984 15.782 7.09202C15.5903 6.71569 15.2843 6.40973 14.908 6.21799C14.4802 6 13.9201 6 12.8 6H6.2C5.0799 6 4.51984 6 4.09202 6.21799C3.71569 6.40973 3.40973 6.71569 3.21799 7.09202C3 7.51984 3 8.07989 3 9.2V14.8C3 15.9201 3 16.4802 3.21799 16.908C3.40973 17.2843 3.71569 17.5903 4.09202 17.782C4.51984 18 5.07989 18 6.2 18Z" /></svg>
+             </div>
+             <div class="d-info">
+               <h3>Recorrido de hallazgos</h3>
+               <p>Registro videográfico de los principales hallazgos de la inspección.</p>
+               <span class="d-format">Formato: MP4</span>
+             </div>
+           </div>
+         </div>
+      </div>
+    </section>
+
+    <!-- Criterios Técnicos -->
+    <section class="criteria container section-padding">
+       <div class="criteria-content">
+         <h2 class="section-title">Una inspección basada en criterios técnicos.</h2>
+         <p>Nuestra metodología de inspección considera la regulación aplicable a operaciones con aeronaves pilotadas a distancia y criterios técnicos internacionales para inspecciones termográficas de sistemas fotovoltaicos y eléctricos.</p>
+         <ul class="criteria-list">
+           <li>
+             <div class="check-icon"></div>
+             <div>
+               <strong>RAC-RPAS</strong>
+               <span>Regulación del Sistema de Aeronave Pilotada a Distancia.</span>
+             </div>
+           </li>
+           <li>
+             <div class="check-icon"></div>
+             <div>
+               <strong>IEC TS 62446-3:2017</strong>
+               <span>Criterios para inspecciones termográficas en sistemas fotovoltaicos.</span>
+             </div>
+           </li>
+         </ul>
+       </div>
+       <div class="criteria-image">
+         <img src="/images/drone-setup.jpg" alt="Equipamiento de drone industrial e inspección termográfica" class="criteria-img">
+       </div>
+    </section>
+
+    <!-- Mantenimiento Preventivo -->
+    <section id="sectores" class="preventive container section-padding">
+      <div class="preventive-header">
+        <h2 class="text-center section-title">Una herramienta para mantenimiento preventivo.</h2>
+        <p class="text-center">Conocer la condición de sus activos permite planificar intervenciones con mayor información, identificar prioridades y reducir el riesgo de que anomalías no detectadas evolucionen hacia fallas.</p>
+      </div>
+      
+      <div class="industry-icons">
+         <div class="industry-item">
+            <div class="industry-icon-box">
+              <svg fill="currentColor" width="36" height="36" viewBox="0 -64 640 640" xmlns="http://www.w3.org/2000/svg"><path d="M431.98 448.01l-47.97.05V416h-128v32.21l-47.98.05c-8.82.01-15.97 7.16-15.98 15.99l-.05 31.73c-.01 8.85 7.17 16.03 16.02 16.02l223.96-.26c8.82-.01 15.97-7.16 15.98-15.98l.04-31.73c.01-8.85-7.17-16.03-16.02-16.02zM585.2 26.74C582.58 11.31 568.99 0 553.06 0H86.93C71 0 57.41 11.31 54.79 26.74-3.32 369.16.04 348.08.03 352c-.03 17.32 14.29 32 32.6 32h574.74c18.23 0 32.51-14.56 32.59-31.79.02-4.08 3.35 16.95-54.76-325.47zM259.83 64h120.33l9.77 96H250.06l9.77-96zm-75.17 256H71.09L90.1 208h105.97l-11.41 112zm16.29-160H98.24l16.29-96h96.19l-9.77 96zm32.82 160l11.4-112h149.65l11.4 112H233.77zm195.5-256h96.19l16.29 96H439.04l-9.77-96zm26.06 256l-11.4-112H549.9l19.01 112H455.33z"/></svg>
+            </div>
+            <span>Plantas solares</span>
+         </div>
+         <div class="industry-item">
+            <div class="industry-icon-box">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10" width="14" height="11" rx="1" /><path d="M2 21h20" /><path d="M8 10V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4" /><path d="M12 13l-2 3h4l-2 3" /><path d="M5 13H3" /><path d="M21 13h-2" /><path d="M5 17H3" /><path d="M21 17h-2" /></svg>
+            </div>
+            <span>Subestaciones</span>
+         </div>
+         <div class="industry-item">
+            <div class="industry-icon-box">
+              <svg fill="currentColor" height="36" width="36" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g><g><path d="M439.652,0c-18.413,0-33.391,14.978-33.391,33.391c0,12.305,6.764,22.955,16.696,28.748v38.035h-59.083l-7.885-52.566 c-1.229-8.173-8.25-14.217-16.511-14.217H172.522c-8.261,0-15.282,6.044-16.511,14.217l-7.885,52.566H89.044V62.139 c9.932-5.792,16.696-16.443,16.696-28.748C105.739,14.978,90.761,0,72.348,0S38.957,14.978,38.957,33.391 c0,12.305,6.764,22.955,16.696,28.748v54.731c0,9.223,7.479,16.696,16.696,16.696h70.77 c-19.581,130.539-31.349,208.987-51.755,345.043H72.348c-9.217,0-16.696,7.473-16.696,16.696c0,9.223,7.479,16.696,16.696,16.696 h66.783c9.217,0,16.696-7.473,16.696-16.696c0-9.223-7.479-16.696-16.696-16.696h-14.004l5.01-33.391h251.728l5.01,33.391H372.87 c-9.217,0-16.696,7.473-16.696,16.696c0,9.223,7.479,16.696,16.696,16.696h66.783c9.217,0,16.696-7.473,16.696-16.696 c0-9.223-7.479-16.696-16.696-16.696h-19.014c-3.268-21.788-29.717-198.118-32.992-219.952c-0.007-0.036-0.01-0.071-0.017-0.107 l-18.747-124.985h70.77c9.217,0,16.696-7.473,16.696-16.696V62.139c9.932-5.792,16.696-16.443,16.696-28.748 C473.043,14.978,458.065,0,439.652,0z M348.954,225.82l-63.644-44.128l51.652-35.813L348.954,225.82z M194.187,244.87 l61.818-42.86l61.817,42.86H194.187z M315.153,278.261l-59.046,38.593l-59.157-38.593H315.153z M256.004,161.376l-40.111-27.81 h80.223L256.004,161.376z M186.902,66.783h138.195l5.009,33.391H181.894L186.902,66.783z M175.038,145.872l51.663,35.82 l-63.656,44.135L175.038,145.872z M153.456,289.752l72.122,47.053l-87.788,57.377L153.456,289.752z M171.815,411.826 l84.302-55.099l84.456,55.099H171.815z M374.163,393.874l-87.522-57.098l71.907-46.997L374.163,393.874z"/></g></g></svg>
+            </div>
+            <span>Líneas eléctricas</span>
+         </div>
+         <div class="industry-item">
+            <div class="industry-icon-box">
+              <svg fill="currentColor" width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22,1H18a1,1,0,0,0-1,1V9H15V7a1,1,0,0,0-1.447-.895L9,8.382V7a1,1,0,0,0-1.447-.895l-6,3A1,1,0,0,0,1,10V22a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1V2A1,1,0,0,0,22,1ZM21,3V5H19V3ZM3,21V10.618l4-2V10a1,1,0,0,0,1.447.895L13,8.618V10a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1V7h2V21Zm2-8H8v2H5Zm5,0h4v2H10Zm6,0h3v2H16ZM5,17H8v2H5Zm5,0h4v2H10Zm6,0h3v2H16Z"/></svg>
+            </div>
+            <span>Techos industriales</span>
+         </div>
+         <div class="industry-item">
+            <div class="industry-icon-box">
+              <svg version="1.1" id="Icons" width="36" height="36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve"><style type="text/css">.st0{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}.st1{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}.st2{fill:none;stroke:currentColor;stroke-width:2;stroke-miterlimit:10;}</style><path class="st1" d="M26,17c3.9-3.9,3.9-10.1,0-14"/><path class="st1" d="M22.7,13.3c1.8-1.8,1.8-4.9-0.2-6.8"/><path class="st1" d="M6,3C2.1,6.9,2.1,13.1,6,17"/><path class="st1" d="M9.3,6.7c-1.8,1.8-1.8,4.9,0.2,6.8"/><circle class="st0" cx="16" cy="10" r="2"/><line class="st0" x1="8" y1="29" x2="24" y2="29"/><line class="st0" x1="13" y1="21" x2="19" y2="21"/><line class="st0" x1="16.6" y1="12" x2="21" y2="29"/><line class="st0" x1="11" y1="29" x2="15.4" y2="11.9"/></svg>
+            </div>
+            <span>Torres de comunicación</span>
+         </div>
+      </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section id="contacto" class="cta-final container section-padding">
+      <div class="cta-box">
+        <div class="cta-text">
+          <h2>¿Necesita conocer la condición de sus activos?</h2>
+          <p>Cuéntenos qué infraestructura desea inspeccionar y nuestro equipo evaluará el alcance técnico requerido.</p>
+        </div>
+        <div class="cta-action">
+          <a href="solicitar.html" class="btn btn-light">Solicitar inspección &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo-area">
+        <div class="logo">
+          <img src="/images/logo-blue.png" alt="Soner" height="36" style="display: block;">
+        </div>
+        <p class="footer-desc">Soluciones de diagnóstico e inspección técnica para infraestructura energética.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#entregables">Entregables</a></li>
+          <li><a href="#sectores">Sectores</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <ul class="footer-contact-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 8px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>info@sonergroup.com</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 8px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>+504 3389-0581</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: text-bottom; margin-right: 8px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>Honduras, Centroamérica</li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://api.whatsapp.com/message/PIE5JVMPPGKXF1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener noreferrer" class="s-icon" aria-label="WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z" fill="currentColor"/></svg></a>
+          <a href="https://www.instagram.com/sonerhonduras/" target="_blank" rel="noopener noreferrer" class="s-icon" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-340.000000, -7439.000000)" fill="currentColor"><g transform="translate(56.000000, 160.000000)"><path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792"></path></g></g></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 SONER. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://api.whatsapp.com/message/PIE5JVMPPGKXF1?autoload=1&app_absent=0&utm_source=ig" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat en WhatsApp">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z" fill="currentColor"/></svg>
+  </a>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
