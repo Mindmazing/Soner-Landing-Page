@@ -45,6 +45,14 @@ body {
   background-color: var(--bg-white);
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -944,6 +952,12 @@ a {
   .benefits-items {
     flex-direction: column;
     gap: 40px;
+    text-align: center;
+  }
+
+  .benefit-item .round-icon {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .services-grid, .deliverables-cards {
