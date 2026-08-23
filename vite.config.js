@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  base: '/Soner-Landing-Page/',
+  base: './',
   build: {
     rollupOptions: {
       input: {
