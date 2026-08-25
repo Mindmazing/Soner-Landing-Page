@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Mindmazing.github.io/Soner-Landing-Page/sitemap.xml
