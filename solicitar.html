@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://sonergroup.com/solicitar.html">
   <meta property="og:title" content="Solicitar Inspección | Soner Honduras">
   <meta property="og:description" content="Cotice servicios de inspección técnica con drones en Honduras.">
-  <meta property="og:image" content="https://sonergroup.com/images/cta-drone-bg.jpg">
+  <meta property="og:image" content="https://Mindmazing.github.io/Soner-Landing-Page/images/og-image-soner.jpg">
   <meta property="og:locale" content="es_HN">
 
   <!-- Schema.org Data -->
@@ -33,7 +33,7 @@
   }
   </script>
 
-  <script type="module" crossorigin src="./assets/main-Dn_0A3DX.js"></script>
+  <script type="module" crossorigin src="./assets/main-Dm5hXKQ-.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/main-BcKeX15K.css">
 </head>
 <body class="page-solicitar">
@@ -96,7 +96,12 @@
          </div>
          
          <div class="form-container">
-           <form action="#" method="POST" class="inspection-form">
+           <form action="https://api.web3forms.com/submit" method="POST" class="inspection-form">
+              <!-- Llave de acceso de Web3Forms (Aún falta colocar la real) -->
+              <input type="hidden" name="access_key" value="TU_ACCESS_KEY_AQUI">
+              <input type="hidden" name="subject" value="Nueva Solicitud de Inspección Soner">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
               <div class="form-group">
                  <label for="name">Nombre completo</label>
                  <input type="text" id="name" name="name" required placeholder="Ej. Juan Pérez">
