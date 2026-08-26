@@ -131,4 +131,60 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // Manejo de formulario con Web3Forms (AJAX)
+  const form = document.querySelector('.inspection-form');
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const btn = form.querySelector('.btn-submit');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = 'Enviando...';
+      btn.disabled = true;
+
+      const formData = new FormData(form);
+      
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      })
+      .then(async (response) => {
+        let json = await response.json();
+        if (response.status == 200) {
+          btn.innerHTML = '¡Enviado con éxito! ✓';
+          btn.style.backgroundColor = '#10B981'; // Color verde de éxito
+          btn.style.borderColor = '#10B981';
+          form.reset();
+          
+          setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.style.backgroundColor = '';
+            btn.style.borderColor = '';
+            btn.disabled = false;
+          }, 4000);
+        } else {
+          console.log(response);
+          btn.innerHTML = 'Error al enviar ✕';
+          btn.style.backgroundColor = '#EF4444'; // Color rojo de error
+          btn.style.borderColor = '#EF4444';
+          
+          setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.style.backgroundColor = '';
+            btn.style.borderColor = '';
+            btn.disabled = false;
+          }, 4000);
+        }
+      })
+      .catch(error => {
+        console.log(error);
+        btn.innerHTML = 'Error de conexión ✕';
+        setTimeout(() => {
+          btn.innerHTML = originalText;
+          btn.disabled = false;
+        }, 4000);
+      });
+    });
+  }
 });
