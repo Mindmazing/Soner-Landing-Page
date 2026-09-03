@@ -679,10 +679,10 @@ a {
 .cta-box {
   background-color: var(--primary-blue);
   background-image: 
-    linear-gradient(rgba(11, 17, 32, 0.85), rgba(11, 17, 32, 0.95)),
+    linear-gradient(rgba(11, 17, 32, 0.6), rgba(11, 17, 32, 0.65)),
     url('/images/Soner-Footer.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: top;
   border-radius: 12px;
   padding: 64px;
   display: flex;
